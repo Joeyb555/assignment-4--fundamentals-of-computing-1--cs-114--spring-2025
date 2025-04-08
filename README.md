@@ -56,8 +56,8 @@ This repo contains the following files, all required to carry out this assignmen
 |--------------------------------------------|:-------:|
 | Program works according to instructions    | `25`    |
 | Code is neat and professional              | `25`    |
-| Variable naming is logical                 | `20`    |
-| Assignment instructions followed correctly | `20`    |
+| Variable naming is logical                 | `25`    |
+| Assignment instructions followed correctly | `25`    |
 
 ---
 
