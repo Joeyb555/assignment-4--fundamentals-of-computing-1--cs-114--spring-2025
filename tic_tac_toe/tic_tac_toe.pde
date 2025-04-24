@@ -3,16 +3,18 @@ void setup() {
   drawBoard();
   computerTurn();
 }
-
+  
 void draw() {
 }
 
+  boolean gameOver = false;
+  
 void keyPressed() {
   if (gameOver) {
     println("The game has ended.");
     return;
   }
-
+  
   int index = key - '0';
   if (index < 0 || index > 8) {
     println("Invalid key pressed. Please use keys 0–8.");
@@ -36,6 +38,6 @@ void keyPressed() {
     gameOver = true;
     return;
   }
-
+   
   computerTurn();
 }
