@@ -1,10 +1,6 @@
 void setup() {
   size(500, 500);
-  drawBoard();
   computerTurn();
-}
-
-void draw() {
 }
 
 boolean gameOver = false;
@@ -27,7 +23,6 @@ void keyPressed() {
   }
 
   makeMove(index, 'O');
-  drawBoard();
 
   if (checkWin('O')) {
     println("You win!");

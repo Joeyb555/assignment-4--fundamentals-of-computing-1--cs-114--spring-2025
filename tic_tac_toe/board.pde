@@ -36,14 +36,23 @@ void computerTurn() {
       makeMove(i, 'X');
       drawBoard();
       println("Game in play.");
+
       if (checkWin('X')) {
         println("Computer wins!");
         gameOver = true;
       } else if (isBoardFull()) {
         println("No one has won.");
         gameOver = true;
-      }
+
+  if (board[i] == 'X') {
+      drawX(x, y);
+    } else if (board[i] == 'O') {
+      drawO(x, y);
+    }
+
       break;
     }
+
   }
+ }
 }
