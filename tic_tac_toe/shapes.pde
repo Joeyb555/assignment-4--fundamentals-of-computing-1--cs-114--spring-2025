@@ -1,4 +1,4 @@
-void drawBoard() {
+void drawBoard () {
   background(255);
   stroke(0);
   strokeWeight(4);
