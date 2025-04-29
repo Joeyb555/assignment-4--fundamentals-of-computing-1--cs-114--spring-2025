@@ -31,7 +31,7 @@ boolean isBoardFull() {
 void computerTurn() {
   if (gameOver) return;
 
-  for (int i = 0; i < 9; i++) {
+  for(int i = 0; i < 9; i++) {
     if (board[i] == ' ') {
       makeMove(i, 'X');
       drawBoard();
