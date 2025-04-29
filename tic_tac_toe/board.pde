@@ -34,7 +34,6 @@ void computerTurn() {
   for(int i = 0; i < 9; i++) {
     if (board[i] == ' ') {
       makeMove(i, 'X');
-      drawBoard();
       println("Game in play.");
 
       if (checkWin('X')) {
